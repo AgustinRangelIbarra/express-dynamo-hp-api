@@ -1,3 +1,19 @@
+/* 
+Setup your own .env file
+With the following data.
+
+Create an IAM user and copy the data you need
+
+.env file
+-----------------------------
+AWS_ACCEES_KEY_ID= 
+AWS_SECRET_ACCESS_KEY= 
+AWS_DEFAULT_REGION= 
+-----------------------------
+
+
+*/
+
 const express = require("express");
 const {
 	getAllCharacters,
